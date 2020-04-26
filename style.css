@@ -1,7 +1,7 @@
 body {
   max-width: 375px;
   font-family: 'Poppins', sans-serif;
-  background-color: hsl(0, 10%, 94%);
+  background-color: hsl(0, 0%, 98%);
   margin: 0 auto;
   padding: 0;
   line-height: 2em;
@@ -44,7 +44,7 @@ p {
 }
 
 .card {
-  background-color: hsl(0, 0%, 98%);
+  background-color: white;
   border-radius: 5px;
   box-shadow: 10px 10px 15px hsl(225, 63%, 87%) ;
   height: 200px;
@@ -114,17 +114,23 @@ footer a:hover {
   }
 
   .top {
-    width: 35%;
+    width: 40%;
+    margin-bottom: 70px;
   }
 
   .top h1 {
-    font-size: 33px;
-    margin-bottom: 15px;
+    font-size: 35px;
+    margin: 15px 0;
   }
   
   .top h2 {
-    font-size: 33px;
+    font-size: 35px;
     margin-bottom: 20px;
+  }
+
+  .top p {
+    font-size: 15px;
+    font-weight: 400;
   }
 
   .cards {
@@ -142,11 +148,12 @@ footer a:hover {
   .cyan {
     position: absolute;
     top: 150px;
+    
   }
 
   .blue {
     position: absolute;
-    left: 69%;
+    left: 68.5%;
     bottom: 100px;
   }
 
