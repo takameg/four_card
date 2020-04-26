@@ -25,6 +25,7 @@ h1, .top h2 {
 
 p {
   font-size: 15px;
+  font-weight: 200;
   color:hsl(229, 6%, 66%);
   margin: 0;
 }
@@ -71,6 +72,7 @@ p {
 .card h1 {
   margin: 0 0 8px 0;
   font-size: 22px;
+  font-weight: 400;
 }
 
 .card img {
